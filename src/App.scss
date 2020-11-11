@@ -1,0 +1,106 @@
+@import 'styles/colors.scss';
+
+h1, h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.btn {
+  flex-grow: 1;
+  height: 30px;
+  flex-basis: 5%;
+  font-weight: bold;
+  background-color: $gray;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: $light-gray;
+}
+
+.label {
+  flex-grow: 1;
+  font-weight: bold;
+  flex-basis: 5%;
+}
+
+.input-search {
+  flex-grow: 3;
+  height: 30px;
+  flex-basis: 30%;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 5%;
+}
+
+.data-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.box{
+  text-align: center;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.combo-box {
+  padding: 0% 20%;
+  margin: 0px;
+}
+
+.error-box {
+  padding: 0% 20%;
+  margin: 0px;
+  color: $red;
+}
+
+ul {  
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 0px;
+  padding: 0px;
+  height: 300px;
+  width: 94%;
+  overflow: auto;
+}
+
+li{
+  padding: 10px 25px;
+  border-bottom: 1px solid $black;
+  background-color: $gray;
+  color: $black;
+}
+
+li:hover {
+  background-color: $light-gray;
+}
+
+.App-header {
+  background-color: $navy;
+  height: 160px;
+  font-size: calc(8px + 2vmin);
+  color: $white;
+}
+
+.footer{
+  background-color: $navy;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  font-size: calc(6px + 2vmin);
+  color: $red;
+  position: fixed;
+  bottom: 0px;
+}
